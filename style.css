@@ -1,0 +1,58 @@
+header {                       
+    background-color: #000000;
+    
+}
+#dessin {
+    size: 12px;
+
+}
+
+h1 {
+    margin-left: 300px;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font: center;
+}
+    
+body{
+       background-color: black;
+} 
+main {
+    margin-top: 5em;
+    font-family: 'Times New Roman';
+    font: icon;
+    font-size: large;
+}
+
+nav {
+    color: white;
+}
+
+img {
+   display: flex;
+   justify-content:flex-end;
+   
+}
+
+a:visited {
+    color: rgb(19, 19, 19);
+
+}
+a:link {
+    color: white;
+    outline: none;
+    text-decoration: none;
+    font-family: Impact, fantasy;
+}
+
+
+footer {       
+    margin-top: 5%;
+    background: rgb(77, 75, 75);  
+    width: 99vw; 
+    height: 25vh;  
+    padding-left: 1em;
+      
+}
