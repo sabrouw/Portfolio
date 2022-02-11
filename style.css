@@ -1,50 +1,46 @@
 header {                       
-    background-color: #000000;
+    background-color: #09e4ad;
+    margin: 0;
+    padding: 0;
     
 }
-#dessin {
-    size: 12px;
-
-}
-
 h1 {
-    margin-left: 300px;
-    margin-right: auto;
     display: flex;
     flex-direction: column;
-    color: white;
     font: center;
+    border: 1px solid white;
 }
     
 body{
-       background-color: black;
+       background-color: rgb(13, 99, 211);
+       position: relative;
 } 
 main {
     margin-top: 5em;
     font-family: 'Times New Roman';
     font: icon;
     font-size: large;
+    border: 1px solid white;
 }
 
-nav {
+svg {
     color: white;
+    border: 1px solid white;
 }
 
-img {
-   display: flex;
-   justify-content:flex-end;
-   
-}
+
+
 
 a:visited {
     color: rgb(19, 19, 19);
-
+    border: 1px solid white;
 }
 a:link {
     color: white;
     outline: none;
     text-decoration: none;
     font-family: Impact, fantasy;
+    border: 1px solid white;
 }
 
 
@@ -54,5 +50,7 @@ footer {
     width: 99vw; 
     height: 25vh;  
     padding-left: 1em;
+    border: 1px solid white;
+    
       
 }
