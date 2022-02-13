@@ -1,56 +1,89 @@
 header {                       
-    background-color: #09e4ad;
+    background: linear-gradient(45deg, black,#FE895E, grey,white );
     margin: 0;
     padding: 0;
+   
     
 }
-h1 {
+header h1 {
     display: flex;
     flex-direction: column;
     font: center;
-    border: 1px solid white;
+    font-family: 'Times New Roman';
+    padding-top: 40px; 
+
 }
-    
+
+
+
+nav {
+    background-color:#FE895E;
+    box-shadow: 5px 5px 10px rgb(70, 69, 69);
+}
 body{
-       background-color: rgb(13, 99, 211);
        position: relative;
+       font-family: 'Times New Roman';
+       
 } 
 main {
     margin-top: 5em;
-    font-family: 'Times New Roman';
     font: icon;
     font-size: large;
     border: 1px solid white;
 }
-
+article {
+    padding-top: 50px;
+    text-align: center;
+}
 svg {
     color: white;
-    border: 1px solid white;
 }
 
 
+img {
+    border-radius: 50%;
+}
 
+.animate-transform {
+    animation: 2s ease-in 1s alternate goRight;
+}
 
+@keyframes goRight {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(1300px);
+    }
+}
+
+/*pour creer une transition sur un élément lorsqu'on passe la souris
+img:hover {
+    height: 300px;
+    width: 300px;
+    transition: height 200ms,widht 200ms;
+}*/
+              
 a:visited {
     color: rgb(19, 19, 19);
-    border: 1px solid white;
+    
 }
 a:link {
     color: white;
     outline: none;
     text-decoration: none;
     font-family: Impact, fantasy;
-    border: 1px solid white;
+    
 }
 
 
 footer {       
     margin-top: 5%;
-    background: rgb(77, 75, 75);  
+    background: #F99F72;  
     width: 99vw; 
     height: 25vh;  
-    padding-left: 1em;
-    border: 1px solid white;
+    padding-left: 50em;
+   
     
       
 }
