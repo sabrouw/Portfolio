@@ -1,7 +1,7 @@
 header {                       
     background: linear-gradient(45deg, black,#FE895E, grey,white );
     margin: 0;
-    padding: 0;
+    
    
     
 }
@@ -31,6 +31,27 @@ main {
     font-size: large;
     border: 1px solid white;
 }
+form h2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-top: solid 40px black;
+    border-bottom: solid 40px black;
+    
+        
+}
+
+
+form { 
+    margin-left: 25%;
+    margin-right: 30%;
+    border: solid black 10px;
+    border-bottom: black 10%;
+    border-radius: 25px;  
+    margin-top: 5%;
+    
+}
+
 article {
     padding-top: 50px;
     text-align: center;
